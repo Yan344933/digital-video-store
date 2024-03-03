@@ -5,6 +5,7 @@ import movieContext from './context/movieContext';
 import { useState, useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ListingPage from './pages/ListingPage';
+import MovieDetailPage from './pages/MovieDetailPage';
 
 function App() {
 
@@ -41,6 +42,7 @@ function App() {
           <Routes>
             <Route path="/" element = {<Homepage />} />
             <Route path="/movie" element = {<ListingPage />} />
+            <Route path="/movie/:movieId" element = {<MovieDetailPage />} />
           </Routes>
         </BrowserRouter>
     </movieContext.Provider>

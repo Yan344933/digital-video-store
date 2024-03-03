@@ -1,28 +1,39 @@
 import React from 'react'
-import logo from '../logo.svg';
+import LoginModal from './LoginModal';
+import RegisterModal from './RegisterModal';
+import { ReactComponent as ReactLogo } from '../logo.svg';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
-  return (
-    <header className="p-3 bg-dark text-white">
-        <div className="container">
-            <div className="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-                <a href="/" className="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
-                    <img src={logo} alt='logo'/>
-                </a>
-
-                <ul className="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-                    <li><a href="/" className="nav-link px-2 text-secondary">Home</a></li>
-                    <li><a href="/movie" className="nav-link px-2 text-white">Movies & TV Listing</a></li>
-                </ul>
-
-                <div className="text-end">
-                    <button type="button" className="btn btn-outline-light me-2">Login</button>
-                    <button type="button" className="btn btn-warning">Sign-up</button>
+    return (
+        <>
+            <nav className="navbar navbar-expand-lg bg-dark py-3 px-5 text-white" data-bs-theme="dark">
+                <div className="container-fluid">
+                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                        <span className="navbar-toggler-icon text-white"></span>
+                    </button>
+                    <div className="collapse navbar-collapse" id="navbarToggler">
+                        <Link className="navbar-brand" to="/">{<ReactLogo />}</Link>
+                        <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li className="nav-item">
+                                <Link className="nav-link active text-white" to="/">Home</Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className="nav-link text-white" to="/movie">Movies & TV Listing</Link>
+                            </li>
+                        </ul>
+                        <div className="d-grid gap-2 d-md-block">
+                            <button type="button" className="btn btn-outline-light me-2" data-bs-toggle="modal" data-bs-target="#LoginModal">Login</button>
+                            <button type="button" className="btn btn-warning" data-bs-toggle="modal" data-bs-target="#RegisterModal">Sign-up</button>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
-    </header>
-  )
+            </nav>
+            <LoginModal />
+            <RegisterModal />
+
+        </>
+    )
 }
 
 export default Header

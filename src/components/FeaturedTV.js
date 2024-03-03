@@ -8,7 +8,7 @@ const FeaturedTV = (props) => {
         </div>
         <div className='row row-cols-auto row-cols-xl-6'>
             {props.movies.map((element)=>
-                <img className='features col' key={element.id} src={element.smallPoster} alt={element.title} />
+                <img className='features col my-3 my-xl-0' key={element.id} src={element.smallPoster} alt={element.title} />
             )}
         </div>
         

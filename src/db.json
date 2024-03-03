@@ -1,9 +1,9 @@
 {
     "carousel": [
-        {"src": "https://images2.9c9media.com/image_asset/2024_2_23_e8bcb542-f26c-42df-ac6d-88d3a688cb82_jpg_1500x684.jpg?size=3840&q=75",
+        {"src": "https://m.media-amazon.com/images/S/sonata-images-prod/US_SVOD_Foe_AtThePiano/43259b91-97bc-4acb-90f3-2b7a46245949._UR3840,1440_SX2160_FMwebp_.jpeg",
         "active": true},
-        {"src": "https://images2.9c9media.com/image_asset/2022_1_14_495b91c8-3b39-448c-b8d6-da240af10071_jpg_1500x684.jpg?size=3840&q=75"},
-        {"src": "https://images2.9c9media.com/image_asset/2021_12_31_e5060673-3a8c-4e52-96b1-6a247321a40c_jpg_1500x684.jpg?size=3840&q=75"}
+        {"src": "https://m.media-amazon.com/images/S/sonata-images-prod/US_SVOD_Foe/6ff0f65e-3952-45d2-9495-7151eb76c1b8._UR3840,1440_SX2160_FMwebp_.jpeg"},
+        {"src": "https://m.media-amazon.com/images/S/sonata-images-prod/US_3P_TheColorPurple_Max_CS/d372605e-a525-45e2-a2d2-5f6cb34719d4._UR3840,1440_SX2160_FMwebp_.jpeg"}
     ],
 
     "Movies": [
@@ -14,7 +14,7 @@
         "FeaturedMovie": 1,
         "RentalPrice": 31.87,
         "PurchasePrice": 16.19,
-        "Description": "A Hawaiian island playboy has to use his imagination to win over the girl of his dreams when he discovers she has no short-term memory."},
+        "Description": "Henry Roth is a man afraid of commitment until he meets the beautiful Lucy. They hit it off and Henry think he's finally found the girl of his dreams until discovering she has short-term memory loss and forgets him the next day."},
 
         {"title": "Waiting...",
         "smallPoster": "https://images2.9c9media.com/image_asset/2023_7_21_f6a5766f-25d9-433a-abc7-7afc59793a23_png_2000x3000.jpg?width=256&maintain_aspect=1",
