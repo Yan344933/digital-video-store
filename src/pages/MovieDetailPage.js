@@ -17,10 +17,10 @@ const MovieDetailPage = () => {
             <Header />
             <div className='row my-4 justify-content-center'>
                 <div className='container row col-5 justify-content-start'>
-                    <div className='col-4'>
+                    <div className='col-4 ms-5'>
                         <img src={movie.smallPoster} className="img-fluid movie-small-poster" alt={movie.title}></img>
                     </div>
-                    <div className='col-8 text-start'>
+                    <div className='col-7 text-start'>
                         <div className='row'>
                             <h1>{movie.title}</h1>
                             <div className='text-light'>

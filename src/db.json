@@ -1,9 +1,14 @@
 {
     "carousel": [
-        {"src": "https://m.media-amazon.com/images/S/sonata-images-prod/US_SVOD_Foe_AtThePiano/43259b91-97bc-4acb-90f3-2b7a46245949._UR3840,1440_SX2160_FMwebp_.jpeg",
+        {"src": "https://m.media-amazon.com/images/S/sonata-images-prod/US_SVOD_Role_Play/e5549b68-683b-4c06-9031-e7587ee0dc27._UR3840,1440_SX2880_FMjpg_.jpeg",
+        "title": "Role Play", 
         "active": true},
-        {"src": "https://m.media-amazon.com/images/S/sonata-images-prod/US_SVOD_Foe/6ff0f65e-3952-45d2-9495-7151eb76c1b8._UR3840,1440_SX2160_FMwebp_.jpeg"},
-        {"src": "https://m.media-amazon.com/images/S/sonata-images-prod/US_3P_TheColorPurple_Max_CS/d372605e-a525-45e2-a2d2-5f6cb34719d4._UR3840,1440_SX2160_FMwebp_.jpeg"}
+        
+        {"src": "https://m.media-amazon.com/images/S/sonata-images-prod/US_TVOD_AquamanandTheLostKingdom_PVOD_SH/5e1f70d0-7164-4be4-b0e2-a2cb704cbf64._UR3840,1440_SX2880_FMjpg_.jpeg",
+        "title": "Aquaman and The Lost Kingdom"},
+
+        {"src": "https://m.media-amazon.com/images/S/sonata-images-prod/US_3P_TheColorPurple_Max_CS/d372605e-a525-45e2-a2d2-5f6cb34719d4._UR3840,1440_SX2160_FMwebp_.jpeg",
+        "title": "The Color Purple"}
     ],
 
     "Movies": [

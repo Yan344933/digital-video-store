@@ -57,6 +57,21 @@ h1 {
 
 /****           Carousel          ***/
 
+.carousel-item .carousel-caption{
+  top: 0%;
+  right: 60%;
+}
+
+@media (min-width: 1200px) {
+  .carousel-item .carousel-caption {
+    top: 25%;
+    right: 60%;
+  }
+
+  .carousel-item h1 {
+    font-size: 4rem;
+  }
+}
 
 /***          Featured images         ******/
 .features {
