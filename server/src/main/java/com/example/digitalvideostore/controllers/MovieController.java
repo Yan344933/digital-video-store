@@ -163,7 +163,7 @@ public class MovieController {
     }
 
     @DeleteMapping("/movies/{id}")
-    public ResponseEntity deleteMovie(@RequestBody String id) {
+    public ResponseEntity deleteMovie(@PathVariable("id") String id) {
 
         CustomizedResponse res;
 
